@@ -1,0 +1,292 @@
+body {
+    background-image:url(../img/backgroud.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.divBase {
+   background-color: #F5F5F5;
+    margin-left:24%;
+    margin-right: 24%;
+    border-radius: 15px;
+    flex: 1;
+    margin-top: 5%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+.divBaseeu{
+    background-color: #F5F5F5;
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 8%;
+    
+}
+.divBasePort{
+    background-color: #F5F5F5;
+    margin-left:24%;
+    margin-right: 24%;
+    border-radius: 15px;
+    margin-top: 3%;
+    border: 2px;
+    border-color: black;
+    border-style: solid; 
+}
+
+.divSuperior{
+    background-color: #1981cd;
+    display: flex;
+    justify-content: center;
+    margin-left: -5%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-top: 10px;
+    border-color: gray;
+}
+
+.titulo{
+    color: #F5F5F5;
+}
+
+.divName{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.imgEu{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-top: 2%;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    font-size: 22px;
+}
+
+.descricao {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.descricaoTxt{
+    font-size: 22px;
+    margin-bottom: -2%;
+    margin-top: -3%;
+}
+
+.imgProject{
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+
+.projectsMini{
+    margin-top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+
+}
+.imgProjectMini{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rodape{
+    background-color: gray;
+    position:static;
+    display: flex;
+    flex-direction: row;
+    color: #f5f5f5;
+    justify-content: center;
+    padding-bottom: 1%;
+    margin-top: 13%;
+}
+.servico{
+    margin-right: 5%;
+}
+
+.divEmail{
+    margin-left: 10%;
+    padding-top: 5%;
+}
+.imgEmail{
+    height: 65px;
+    width: 65px;
+}
+.hmail{
+    margin-left: 10.5%;
+    margin-bottom: -5%;
+}
+.pEmail{
+    margin-left: 10.5%;
+    margin-top: -4.5%;
+}
+
+.divEndereço{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.divPort{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tituloPort{
+    font-size: 35px;
+}
+.desPort{
+    font-size: 20px;
+}
+.divAllimg{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+.ftPort{
+    height: 165px;
+    width: 165px;
+    margin-left: 5%;
+    margin-bottom: 25%;
+    margin-top: 3%;
+}
+.tDes{
+    margin-left:   25%;
+    margin-bottom: 90%;
+    margin-top: -10%;    
+}
+.divInf{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    margin-left: 10%;
+}
+
+
+
+.divImgCon{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+}
+.divAllTi{
+    display: flex;
+    flex-direction: column; 
+
+}
+.divInfos{
+    margin-left:   5%;
+    margin-bottom: 10%;
+    margin-top: -2%;
+}
+.ftCont{
+    height: 96px;
+    width: 96px;
+    margin-left: 5%;
+    margin-bottom: 40%;
+    margin-top: 3%;
+}
+.tCon{
+    font-size: 28px;
+}
+.pCon{
+    font-size: 18px;
+    margin-top: -5%;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        display: block;
+        background-image: none;
+        background-color: #F5F5F5;
+    }
+    .divBase{
+        background-color: #F5F5F5;
+        border-radius: 15px;
+        flex: 1;
+        margin-top: 11%;
+        border: 2px;
+        border-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .divBaseeu{
+        background-color: #F5F5F5;
+        border-style: none;
+    }
+
+    .divBasePort{
+        background-color: #F5F5F5;
+        border-style: none;
+    }
+    
+    .imgEu{
+        border-radius: 15%;
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+        margin-top: 2%;
+    }
+    .ftPort{
+        height: 100px;
+        width: 100px;
+        margin-left: 5%;
+        margin-bottom: 25%;
+        margin-top: 3%;
+        object-fit: cover;
+
+    }
+    .divInf{
+        display: flex;
+        flex-direction: row;
+        margin: 5%;
+        margin-left: -20%;  
+    }
+    .tDes{
+        margin-left:   25%;
+        margin-bottom: 50%;
+        margin-top: -10%;    
+    }
+    .tituloPort{
+        font-size: 25px;
+    }
+    .desPort{
+        font-size: 15px;
+    }
+}
